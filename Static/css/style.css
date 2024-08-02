@@ -1,0 +1,29 @@
+/*font-family: "Montserrat", sans-serif;*/
+*{
+  font-family: "Titillium Web", sans-serif;
+  font-optical-sizing: auto;
+
+}
+
+/*body{
+}*/
+
+#nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0%;
+  padding-right: 0%;
+  padding-left:0%;
+  color: rgb(0, 25, 253);
+}
+
+#redeSociais{
+  justify-content: right;
+}
+#GustavoLaurindo{
+  color: black;
+}
+
+  
