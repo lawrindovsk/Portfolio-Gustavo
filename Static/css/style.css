@@ -1,12 +1,17 @@
+
+/*Fontes*/
 /*font-family: "Montserrat", sans-serif;*/
+/* font-family: "Titillium Web", sans-serif;*/
+
+
 *{
   font-family: "Titillium Web", sans-serif;
   font-optical-sizing: auto;
-
 }
 
-/*body{
-}*/
+body{
+
+}
 
 #nav{
   display: flex;
@@ -16,14 +21,39 @@
   margin: 0%;
   padding-right: 0%;
   padding-left:0%;
-  color: rgb(0, 25, 253);
+  -webkit-transition: .3s all ease;
+  -o-transition: .3s all ease;
+  transition: .3s all ease;
+  background-color: rgb(194, 194, 233);
+  border-bottom: 10px solid rgba(255, 255, 255, 0.1);
+  
 }
 
-#redeSociais{
-  justify-content: right;
-}
-#GustavoLaurindo{
+#aGithub{
   color: black;
 }
 
-  
+#GustavoLaurindo{
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  letter-spacing: -3px;
+  transition: 700ms ease;
+  font-variation-settings: "wght" 311;
+  outline: none;
+  text-align: center;
+  transform: scale(X);
+}
+
+#GustavoLaurindo:hover{
+  font-variation-settings: "wght" 582; 
+  letter-spacing: 1px;
+  /*text-decoration: underline;*/
+}
+
+#bio{
+  text-align:block;
+  justify-content: block;
+  overflow: hidden;
+  padding: 10px;
+   
+}
